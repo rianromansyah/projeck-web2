@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daftar Seminar</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar justify-content-center">
+    <!-- Left navbar links -->
+    <ul class="nav justify-content-center">
+      <h2 > Sistem Informasi Seminar Tugas Akhir - SISTA </h2>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-left" >
+              <li class="breadcrumb-item "><a href="./dashboard.html">Home </a><i class="fas fa-angle-right mx-2" ></i></li>
+              <li class="breadcrumb-item"><a href="./jadwal.html">Jadwal</a><i class="fas fa-angle-right mx-2" ></i></li>
+              <li class="breadcrumb-item"><a href="./daftar-seminar.html">Daftar Seminar</a><i class="fas fa-angle-right mx-2" ></i></li>
+              <li class="breadcrumb-item"><a href="#">Berita</a>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content col-9 mx-md-3">
+      <h5>Pendaftaran Seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari pembimbing TA </h5>
+      <fieldset class="p-5" style="padding: 5;border: 2px solid black;">
+        <legend  class="w-auto">Form Daftar Seminar TA</legend>
+        <fieldset>
+          <form>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <label for="text">NIM :</label> 
+                  </div>
+                  <div class="col-sm-8">
+                    <input id="text" name="text" type="text" class="form-control">
+                  </div>
+                  <div class="col-sm-4">
+                   <label for="text">Nama :</label> 
+                 </div>
+                 <div class="col-sm-8">
+                  <input id="text" name="text" type="text" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="row">
+                <div class="col-sm-4">
+                  <label for="textarea">Judul TA :</label> 
+                </div>
+                <div class="col-sm-8">
+                  <textarea id="textarea" name="textarea" cols="40" rows="3" class="form-control"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+             <div class="row">
+              <div class="col-sm-4">
+                <label for="text">Prodi :</label> 
+              </div>
+              <div class="col-sm-8">
+                <select id="select" name="select" class="custom-select">
+                  <option value="si">Sistem Informasi</option>
+                  <option value="tik">Teknik Informatika</option>
+                  <option value="fmb">Management Business</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-sm-4">
+                <label for="text">Seminar :</label> 
+              </div>
+              <div class="col-sm-8">
+                <select id="select" name="select" class="custom-select">
+                  <option value="si">Proposal</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+           <div class="row">
+            <div class="col-sm-7">
+              <label for="text">Tanggal Seminar :</label> 
+            </div>
+            <div class="input-group col-sm-5">
+              <input id="text2" name="text2" type="date" class="form-control"> 
+              <span class="input-group-text">  <i class="fa fa-calendar-alt"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col-sm-4">
+              <label for="text">Pembimbing :</label> 
+            </div>
+            <div class="col-sm-8">
+              <select id="select" name="select" class="custom-select">
+                <option value="si">Sirojul Munir S.Si, M.KOM</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+         <div class="row">
+          <div class="col-sm-7">
+            <label for="text">Jam Seminar :</label> 
+          </div>
+          <div class="col-sm-5">
+            <input id="text2" name="text2" type="time" class="form-control"> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col-sm-4">
+            <label for="text">Penguji 1 :</label> 
+          </div>
+          <div class="col-sm-8">
+            <select id="select" name="select" class="custom-select">
+              <option value="si">Ahmad Rio M.Si</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+       <div class="row">
+        <div class="col-sm-4">
+          <label for="text">Ruangan :</label> 
+        </div>
+        <div class="col-sm-8">
+          <input id="text2" name="text2" type="text" class="form-control"> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col-sm-4">
+          <label for="text">Penguji 2 :</label> 
+        </div>
+        <div class="col-sm-8">
+          <select id="select" name="select" class="custom-select">
+            <option value="si">Amalia Rahmah M.T</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-9">
+        <a href="./login.html" class="btn btn-primary">Daftar</a>
+      </div>
+    </div>
+
+  </div>
+</form>
+</fieldset>
+               
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2014-2021 <b>Garis Digital</b>.</strong> All rights reserved.
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+</body>
+</html>
